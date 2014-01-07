@@ -1,0 +1,219 @@
+Starting up
+Don't Starve: 85009 WIN32_STEAM
+Build Date: 2013-09-10_10-46-51
+THREAD - started 'GAClient' (3204)
+HttpClient::ClientThread::Main()
+cGame::InitializeOnMainThread
+WindowManager::Initialize
+RestoreWindowPosition
+   Saved Client Pos (0 x 20)
+   Adjusted Window Pos (-8 x -8)
+EnsureWindowOnScreen
+   All good.
+GLInfo
+~~~~~~
+GL_VENDOR: Google Inc.
+GL_RENDERER: ANGLE (ATI Mobility Radeon HD 5400 Series)
+GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+OpenGL extensions (19, 19):
+GL_ANGLE_depth_texture
+GL_ANGLE_framebuffer_blit
+GL_ANGLE_framebuffer_multisample
+GL_ANGLE_instanced_arrays
+GL_ANGLE_pack_reverse_row_order
+GL_ANGLE_texture_compression_dxt3
+GL_ANGLE_texture_compression_dxt5
+GL_ANGLE_texture_usage
+GL_ANGLE_translated_shader_source
+GL_EXT_read_format_bgra
+GL_EXT_robustness
+GL_EXT_texture_compression_dxt1
+GL_EXT_texture_format_BGRA8888
+GL_EXT_texture_storage
+GL_OES_get_program_binary
+GL_OES_packed_depth_stencil
+GL_OES_rgb8_rgba8
+GL_OES_standard_derivatives
+GL_OES_texture_npot
+GL_MAX_TEXTURE_SIZE = 16384
+GL_MAX_TEXTURE_IMAGE_UNITS = 16
+GL_MAX_RENDERBUFFER_SIZE = 16384
+GL_MAX_VIEWPORT_DIMS = 16384, 16384
+GL_MAX_VARYING_VECTORS = 10
+GL_MAX_VERTEX_ATTRIBS = 16
+GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+4 compressed texture formats
+texture format 0x83f0
+texture format 0x83f1
+texture format 0x83f2
+texture format 0x83f3
+THREAD - started 'WindowsInputManager' (5248)
+cDontStarveGame::DoGameSpecificInitialize()
+cGame::StartPlaying
+LOADING LUA
+DoLuaFile scripts/main.lua
+DoLuaFile loading buffer scripts/main.lua
+scripts/translator.lua(31,1) Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+scripts/main.lua(144,1) running main.lua
+	
+scripts/modindex.lua(270,1) loaded modindex	
+scripts/modindex.lua(57,1) ModIndex: Beginning normal load sequence.
+	
+LOADING LUA SUCCESS
+scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4047	
+scripts/playerprofile.lua(267,1) loaded profile	
+scripts/playerprofile.lua(312,1) bloom_enabled	true	
+scripts/saveindex.lua(66,1) loaded saveindex	
+scripts/gamelogic.lua(994,1) OnFilesLoaded()	
+scripts/gamelogic.lua(988,1) OnUpdatePurchaseStateComplete	
+scripts/gamelogic.lua(73,1) 	Unload BE	
+scripts/gamelogic.lua(76,1) 	Unload BE done	
+scripts/gamelogic.lua(78,1) 	Load FE	
+scripts/gamelogic.lua(80,1) 	Load FE: done	
+scripts/modindex.lua(67,1) ModIndex: Load sequence finished successfully.
+	
+Reset() returning
+scripts/screens/loadgamescreen.lua(63,1) load become active	
+Collecting garbage...
+lua_gc took 0.02 seconds
+~SimLuaProxy()
+lua_close took 0.02 seconds
+ReleaseAll
+ReleaseAll Finished
+cGame::StartPlaying
+LOADING LUA
+DoLuaFile scripts/main.lua
+DoLuaFile loading buffer scripts/main.lua
+scripts/translator.lua(31,1) Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+scripts/main.lua(144,1) running main.lua
+	
+scripts/modindex.lua(270,1) loaded modindex	
+scripts/modindex.lua(57,1) ModIndex: Beginning normal load sequence.
+	
+LOADING LUA SUCCESS
+scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4047	
+scripts/playerprofile.lua(267,1) loaded profile	
+scripts/playerprofile.lua(312,1) bloom_enabled	true	
+scripts/saveindex.lua(66,1) loaded saveindex	
+scripts/gamelogic.lua(994,1) OnFilesLoaded()	
+scripts/gamelogic.lua(988,1) OnUpdatePurchaseStateComplete	
+scripts/gamelogic.lua(86,1) 	Unload FE	
+scripts/gamelogic.lua(88,1) 	Unload FE done	
+scripts/gamelogic.lua(90,1) 	LOAD BE	
+scripts/gamelogic.lua(93,1) 	LOAD BE: done	
+MiniMapComponent::SetAtlasInfo( minimap/minimap_data.xml )
+scripts/gamelogic.lua(363,1) Loading Nav Grid	
+scripts/prefabs/walrus_camp.lua(357,1) Child Name: 	icehound	
+scripts/prefabs/walrus_camp.lua(357,1) Child Name: 	icehound	
+scripts/prefabs/walrus_camp.lua(357,1) Child Name: 	icehound	
+scripts/prefabs/walrus_camp.lua(357,1) Child Name: 	icehound	
+scripts/prefabs/walrus_camp.lua(357,1) Child Name: 	icehound	
+scripts/prefabs/walrus_camp.lua(357,1) Child Name: 	icehound	
+scripts/modindex.lua(67,1) ModIndex: Load sequence finished successfully.
+	
+Reset() returning
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [1] ok, HTTP 200: {"result":"OK"}
+
+QueryServerComplete for handle [2] failed, HTTP 0: 
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [3] ok, HTTP 200: {"result":"OK"}
+
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [4] ok, HTTP 200: {"result":"OK"}
+
+QueryServerComplete for handle [5] failed, HTTP 0: 
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [6] ok, HTTP 200: {"result":"OK"}
+
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [7] ok, HTTP 200: {"result":"OK"}
+
+QueryServerComplete for handle [8] failed, HTTP 0: 
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [9] ok, HTTP 200: {"result":"OK"}
+
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [10] ok, HTTP 200: {"result":"OK"}
+
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [11] ok, HTTP 200: {"result":"OK"}
+
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [12] ok, HTTP 200: {"result":"OK"}
+
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [13] ok, HTTP 200: {"result":"OK"}
+
+scripts/mainfunctions.lua(503,1) Saved	adventure_1	
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+QueryServerComplete for handle [14] ok, HTTP 200: {"result":"OK"}
+
+scripts/mainfunctions.lua(477,1) Can't find	100718	
+scripts/mainfunctions.lua(503,1) Saved	adventure_1	
+Collecting garbage...
+lua_gc took 0.24 seconds
+~SimLuaProxy()
+Cancelling LuaQueryCallback handle [15]
+lua_close took 0.26 seconds
+ReleaseAll
+ReleaseAll Finished
+cGame::StartPlaying
+LOADING LUA
+DoLuaFile scripts/main.lua
+DoLuaFile loading buffer scripts/main.lua
+scripts/translator.lua(31,1) Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+scripts/main.lua(144,1) running main.lua
+	
+scripts/modindex.lua(270,1) loaded modindex	
+scripts/modindex.lua(57,1) ModIndex: Beginning normal load sequence.
+	
+HttpClientWriteCallback (0x009D3DFF, 1, 16, 0x0472F8D8)
+HttpClientWriteCallback READ 16 (16 total)
+LOADING LUA SUCCESS
+scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4047	
+scripts/playerprofile.lua(267,1) loaded profile	
+scripts/playerprofile.lua(312,1) bloom_enabled	true	
+scripts/saveindex.lua(66,1) loaded saveindex	
+scripts/gamelogic.lua(994,1) OnFilesLoaded()	
+scripts/gamelogic.lua(988,1) OnUpdatePurchaseStateComplete	
+scripts/gamelogic.lua(73,1) 	Unload BE	
+scripts/gamelogic.lua(76,1) 	Unload BE done	
+scripts/gamelogic.lua(78,1) 	Load FE	
+scripts/gamelogic.lua(80,1) 	Load FE: done	
+scripts/modindex.lua(67,1) ModIndex: Load sequence finished successfully.
+	
+Reset() returning
+QueryServerComplete for non-existent handle [15] ok, HTTP 200: {"result":"OK"}
+
+Collecting garbage...
+lua_gc took 0.04 seconds
+~SimLuaProxy()
+lua_close took 0.02 seconds
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+HttpClient::ClientThread::Main() complete
+Shutting down
